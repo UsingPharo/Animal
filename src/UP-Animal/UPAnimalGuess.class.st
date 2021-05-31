@@ -5,12 +5,12 @@ Class {
 	#name : #UPAnimalGuess,
 	#superclass : #Object,
 	#instVars : [
-		'animalName'
+		'name'
 	],
 	#category : #'UP-Animal'
 }
 
 { #category : #'instance creation' }
-UPAnimalGuess class >> animalName: aStringName [
-	^self new animalName: aStringName
+UPAnimalGuess class >> name: aStringName [
+	^self new name: aStringName
 ]
