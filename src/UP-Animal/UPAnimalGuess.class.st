@@ -11,6 +11,6 @@ Class {
 }
 
 { #category : #'instance creation' }
-UPAnimalGuess class >> text: aStringName [
-	^self new text: aStringName
+UPAnimalGuess class >> animalName: aStringName [
+	^self new animalName: aStringName
 ]
